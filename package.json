@@ -1,0 +1,46 @@
+{
+  "name": "astra-editor",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "webpack serve",
+    "build": "cross-env NODE_ENV=production webpack",
+    "tauri": "tauri",
+    "android": "tauri android"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-opener": "^2",
+    "prop-types": "^15.8.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "redux": "^4.2.1",
+    "scratch-gui": "github:AstraEditor/scratch-gui#feature",
+    "scratch-vm": "github:AstraEditor/scratch-vm#master"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.4",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.13.13",
+    "@tauri-apps/cli": "^2",
+    "autoprefixer": "^10.4.20",
+    "babel-loader": "^8.4.1",
+    "copy-webpack-plugin": "^6.4.1",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.11.0",
+    "file-loader": "^6.2.0",
+    "path-browserify": "^1.0.1",
+    "postcss": "^8.5.3",
+    "postcss-import": "^16.1.0",
+    "postcss-loader": "^4.2.0",
+    "postcss-simple-vars": "^7.0.1",
+    "process": "^0.11.10",
+    "raw-loader": "^4.0.2",
+    "style-loader": "^4.0.0",
+    "url": "^0.11.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.1.0"
+  }
+}
