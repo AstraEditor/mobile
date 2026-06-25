@@ -44,7 +44,8 @@ const base = {
                             modules: {
                                 localIdentName: '[name]_[local]_[hash:base64:5]',
                                 exportLocalsConvention: 'camelCase'
-                            }
+                            },
+                            esModule: false
                         }
                     },
                     {

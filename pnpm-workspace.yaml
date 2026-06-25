@@ -1,2 +1,5 @@
 onlyBuiltDependencies:
   - "scratch-gui"
+allowBuilds:
+  scratch-gui@https://codeload.github.com/AstraEditor/scratch-gui/tar.gz/c1d227793014759dd9b3e63a59de8d01980c08ab: true
+  scratch-blocks@https://codeload.github.com/AstraEditor/scratch-blocks/tar.gz/3b7e8cb93d9d17c813f687b6720fc5f148c69e1b: true
